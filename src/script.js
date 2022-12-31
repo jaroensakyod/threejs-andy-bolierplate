@@ -66,7 +66,7 @@ scene.add(sunLight)
 
 /////////////////////////////////////////////////////////////////////////
 ///// LOADING GLB/GLTF MODEL FROM BLENDER
-loader.load('models/gltf/starter-scene.glb', function (gltf) {
+loader.load('models/gltf/military-base.glb', function (gltf) {
 
     scene.add(gltf.scene)
 })
